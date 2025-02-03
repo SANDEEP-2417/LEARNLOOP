@@ -1,0 +1,129 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "fitness",
+            "cwd": "FLUTTER\\barath\\fitness",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "fitness (profile mode)",
+            "cwd": "FLUTTER\\barath\\fitness",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "fitness (release mode)",
+            "cwd": "FLUTTER\\barath\\fitness",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "adv_basics",
+            "cwd": "FLUTTER\\projects\\adv_basics",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "adv_basics (profile mode)",
+            "cwd": "FLUTTER\\projects\\adv_basics",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "adv_basics (release mode)",
+            "cwd": "FLUTTER\\projects\\adv_basics",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "expense_tracker",
+            "cwd": "FLUTTER\\projects\\expense_tracker",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "expense_tracker (profile mode)",
+            "cwd": "FLUTTER\\projects\\expense_tracker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "expense_tracker (release mode)",
+            "cwd": "FLUTTER\\projects\\expense_tracker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "shopping_list",
+            "cwd": "FLUTTER\\projects\\shopping_list",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "shopping_list (profile mode)",
+            "cwd": "FLUTTER\\projects\\shopping_list",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "shopping_list (release mode)",
+            "cwd": "FLUTTER\\projects\\shopping_list",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "weather_app",
+            "cwd": "FLUTTER\\projects\\weather_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "weather_app (profile mode)",
+            "cwd": "FLUTTER\\projects\\weather_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "weather_app (release mode)",
+            "cwd": "FLUTTER\\projects\\weather_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "navigation_example",
+            "cwd": "Users\\Barath muthu\\navigation_example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "navigation_example (profile mode)",
+            "cwd": "Users\\Barath muthu\\navigation_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "navigation_example (release mode)",
+            "cwd": "Users\\Barath muthu\\navigation_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
