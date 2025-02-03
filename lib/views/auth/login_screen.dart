@@ -1,12 +1,164 @@
 import 'package:flutter/material.dart';
+import 'package:learnloop1/core/contants/colors.dart';
 import 'package:learnloop1/core/contants/strings.dart';
+import 'package:learnloop1/utils/helperfunctions.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Row(),
+      body: Row(
+        children: [
+          Container(
+            width: helperFunctions.getWidth(context) * 0.6,
+            height: helperFunctions.getHeight(context),
+            decoration: BoxDecoration(
+              color: customColors.textColor,
+            ),
+            child: Row(
+              children: [
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(
+                      height: helperFunctions.getHeight(context) * 0.2,
+                      width: helperFunctions.getWidth(context) * 0.15,
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.only(
+                              bottomRight: Radius.circular(20))),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(top: 10),
+                      height: helperFunctions.getHeight(context) * 0.5,
+                      width: helperFunctions.getWidth(context) * 0.15,
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.only(
+                              topRight: Radius.circular(20),
+                              bottomRight: Radius.circular(20))),
+                    ),
+                    Expanded(
+                      child: Container(
+                        margin: const EdgeInsets.only(top: 10),
+                        width: helperFunctions.getWidth(context) * 0.15,
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.only(
+                                topRight: Radius.circular(20))),
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  width: 10,
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(
+                      height: helperFunctions.getHeight(context) * 0.2,
+                      width: helperFunctions.getWidth(context) * 0.3,
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(20),
+                              bottomRight: Radius.circular(20))),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(top: 10),
+                      height: helperFunctions.getHeight(context) * 0.4,
+                      width: helperFunctions.getWidth(context) * 0.3,
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.only(
+                              topLeft: Radius.circular(20),
+                              topRight: Radius.circular(20),
+                              bottomLeft: Radius.circular(20),
+                              bottomRight: Radius.circular(20))),
+                    ),
+                    Expanded(
+                      child: Row(
+                        children: [
+                          Container(
+                            margin: const EdgeInsets.only(top: 10),
+                            width: helperFunctions.getWidth(context) * 0.15,
+                            decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.only(
+                                    topLeft: Radius.circular(20),
+                                    topRight: Radius.circular(20))),
+                          ),
+                          Container(
+                            margin: const EdgeInsets.only(top: 10, left: 10),
+                            width: helperFunctions.getWidth(context) * 0.14,
+                            decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.only(
+                                    topLeft: Radius.circular(20),
+                                    topRight: Radius.circular(20))),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  width: 10,
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(
+                      height: helperFunctions.getHeight(context) * 0.2,
+                      width: helperFunctions.getWidth(context) * 0.13,
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(20),
+                              bottomRight: Radius.circular(20))),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(left: 1, top: 10),
+                      height: helperFunctions.getHeight(context) * 0.4,
+                      width: helperFunctions.getWidth(context) * 0.13,
+                      decoration: BoxDecoration(
+                          color: customColors.backgroundColor,
+                          borderRadius: BorderRadius.only(
+                            bottomLeft: Radius.circular(20),
+                            bottomRight: Radius.circular(20),
+                            topLeft: Radius.circular(20),
+                            topRight: Radius.circular(20),
+                          )),
+                    ),
+                    Expanded(
+                      child: Container(
+                        margin: const EdgeInsets.only(left: 1, top: 10),
+                        height: helperFunctions.getHeight(context) * 0.4,
+                        width: helperFunctions.getWidth(context) * 0.13,
+                        decoration: BoxDecoration(
+                            color: customColors.backgroundColor,
+                            borderRadius: BorderRadius.only(
+                              topLeft: Radius.circular(20),
+                              topRight: Radius.circular(20),
+                            )),
+                      ),
+                    )
+                  ],
+                )
+              ],
+            ),
+          ),
+          Expanded(
+              child: Container(
+            height: helperFunctions.getHeight(context),
+            decoration: BoxDecoration(
+              color: customColors.backgroundColor,
+            ),
+          ))
+        ],
+      ),
     );
   }
 }
@@ -20,7 +172,7 @@ Widget customTextFormField({
   required TextEditingController controller,
   required String? Function(String?)? validator,
   required bool obscureText,
-}){
+}) {
   return TextFormField(
     controller: controller,
     validator: validator,
