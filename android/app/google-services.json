@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "269663780846",
+    "project_id": "chatbot-app-61731",
+    "storage_bucket": "chatbot-app-61731.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269663780846:android:b632db2d020af00a25d8ff",
+        "android_client_info": {
+          "package_name": "com.example.learnloop1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPKhM2CpEKf-6azo-hONHX_ondhKAR-s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269663780846:android:6fd668a846a5670f25d8ff",
+        "android_client_info": {
+          "package_name": "com.sandeep.chatfree"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPKhM2CpEKf-6azo-hONHX_ondhKAR-s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
